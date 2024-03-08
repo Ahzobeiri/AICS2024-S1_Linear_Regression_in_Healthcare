@@ -6,7 +6,7 @@ def hello_world():
     print("Hello, world!")
 
 hello_world()
-'''
+```
 
 Remove the outer set of triple backticks when writing your actual markdown. This will display the code with syntax highlighting in your README, making it easy to read and copy without turning it into an image.
 
