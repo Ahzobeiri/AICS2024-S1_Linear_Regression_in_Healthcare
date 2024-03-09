@@ -12,7 +12,7 @@ Where:
 - β1, β2, ..., βn are the coefficients representing the impact of each independent variable on the dependent variable.
 - ϵ is the error term, representing the difference between the observed and predicted values.
 
-The goal of linear regression is to estimate the coefficients (β) that minimize the sum of squared differences between the observed and predicted values of the dependent variable. (MSE) 
+The goal of linear regression is to estimate the coefficients (β) that minimize the sum of squared differences between the observed and predicted values of the dependent variable. This value is a cost function value referred to as Mean Squared Error (MSE):  
 $MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$
 
 
