@@ -12,6 +12,8 @@ Where:
 - β0 is the intercept term.
 - β1, β2, ..., βn are the coefficients representing the impact of each independent variable on the dependent variable.
 - ϵ is the error term, representing the difference between the observed and predicted values.
+MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+
 
 
 ```python
