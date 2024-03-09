@@ -6,6 +6,14 @@ Linear regression is a powerful statistical technique used to model the relation
 
 $`Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_nX_n + \epsilon`$
 
+Where:
+- Y is the dependent variable (target).
+- X1, X2, ..., Xn are the independent variables (features).
+- β0 is the intercept term.
+- β1, β2, ..., βn are the coefficients representing the impact of each independent variable on the dependent variable.
+- ϵ is the error term, representing the difference between the observed and predicted values.
+
+
 ```python
 # This is a sample Python code
 def hello_world():
