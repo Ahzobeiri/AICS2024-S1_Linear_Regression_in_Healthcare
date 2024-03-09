@@ -3,7 +3,6 @@
 **Offered in the Class of Artificial Intelligence, March 2024 | Faculty of New Sciences and Technologies, University of Tehran**
 
 Linear regression is a powerful statistical technique used to model the relationship between a dependent variable (target) and one or more independent variables (features). It's widely used in various fields, including healthcare, economics, and social sciences, to make predictions and infer relationships between variables. The overall idea is quite straightforward: linear regression attempts to model the relationship between two (simple linear regression) or more (multiple linear regression) features or variables by fitting a linear equation to observed data. At its core, linear regression involves plotting a line through a set of data points in such a way that it minimizes the distance between each point and the line itself. This line can then be used to predict the value of a dependent variable Y based on the value(s) of one or more independent variables X. The straight line equation is:  
-
 $`Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_nX_n + \epsilon`$
 
 Where:
@@ -12,7 +11,9 @@ Where:
 - β0 is the intercept term.
 - β1, β2, ..., βn are the coefficients representing the impact of each independent variable on the dependent variable.
 - ϵ is the error term, representing the difference between the observed and predicted values.
-MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+
+The goal of linear regression is to estimate the coefficients (β) that minimize the sum of squared differences between the observed and predicted values of the dependent variable. (MSE) 
+$MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$
 
 
 
