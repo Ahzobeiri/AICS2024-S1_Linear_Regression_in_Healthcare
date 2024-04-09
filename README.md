@@ -3,6 +3,7 @@
 **Offered in the Class of Artificial Intelligence, March 13, 2024 | Faculty of New Sciences and Technologies, University of Tehran**
 
 <img src="images/Rabbit.webp" alt="Alt text" width="512" height="512">
+
 ![Alt text](images/Rabbit.webp)
 
 # Intruductions
