@@ -40,8 +40,16 @@ Imagine you want to predict a patient's blood pressure, which is the dependent v
 </div>
 
 # Python Code
-In this part of the lecture, we want to predict the quantitative measure of diabetes progression one year after the baseline using the linear regression model. The dataset is an open-source diabetes dataset available on the website of [North Carolina State University](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt)
-- [Github README PROFILE CATEGORY](#github-readme-profile-category)
+In this part of the lecture, we want to predict the quantitative measure of diabetes progression one year after the baseline using the linear regression model. The dataset is an open-source diabetes dataset available on the website of [North Carolina State University](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt). 
+
+This dataset consisting of several columns representing different medical measurements:
+
+- AGE: Age in years
+- SEX: Biological sex (encoded as 1 for male and 2 for female)
+- BMI: Body mass index
+- BP: Average blood pressure
+- S1, S2, S3, S4, S5, S6: Various blood serum measurements
+- Y: Quantitative measure of disease progression one year after the baseline
 
 ```python
 # This is a sample Python code
