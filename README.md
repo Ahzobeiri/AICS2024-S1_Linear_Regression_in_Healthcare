@@ -84,5 +84,23 @@ import pandas as pd
 df = pd.read_csv("https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt",sep="\t")
 df.head()
 ```
+- df.head(): Displays the first five rows of the dataframe df, giving a preview of the dataset's structure and the initial data points.
+
+### - Exploring the dataset
+```python
+df.info()
+```
+
+```python
+df.describe()
+```
+
+```python
+df.describe()
+```
+
+
+
+
 
 
