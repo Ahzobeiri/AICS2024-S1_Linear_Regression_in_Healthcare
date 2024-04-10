@@ -56,6 +56,19 @@ This dataset consists of several columns representing different medical measurem
 More details: http://www4.stat.ncsu.edu/~boos/var.select/diabetes.html
 
 ### Make Data Ready
+
+### - Import Required Packages
+
+```python
+import matplotlib.pyplot as plt
+%matplotlib inline
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+import math
+import pandas as pd
+```
+
 ### - Load the data
 
 ```python
