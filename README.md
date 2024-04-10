@@ -36,7 +36,7 @@ The squared term in the MSE makes it differentiable, facilitating mathematical t
 Imagine you want to predict a patient's blood pressure, which is the dependent variable. You might consider age and weight as independent variables because you hypothesize that blood pressure could be influenced by these factors. In simple linear regression, you would predict blood pressure from just one of these variables (say, age). The model would help you understand how blood pressure varies with age. If you use both age and weight, you'd move to multiple linear regression, allowing you to predict blood pressure based on a combination of both factors. Linear regression involves finding the "best fit" line through the data points. In simple linear regression, "best fit" means that the sum of the squared differences between the observed values and the values predicted by the model is as small as possible, a method known as least squares.
 
 <div align="center">
-<img src="Residuals.png" alt="Alt text" width="450" height="450">
+<img src="Plane fitted.png" alt="Alt text" width="450" height="450">
 </div>
 
 
