@@ -125,3 +125,72 @@ diabetes_X = df[["BMI"]]
 diabetes_y = df[["Y"]]
 ```
 
+### - Train-Test Split
+
+```python
+# Split the data into training/testing sets
+X_train, X_test, y_train, y_test = train_test_split(diabetes_X,diabetes_y,test_size=0.2,random_state=42 )
+```
+
+- X_train and X_test are the independent variables for training and testing, respectively, while y_train and y_test are the corresponding dependent variables.
+- The test_size=0.2 specifies that 20% of the data is used for testing.
+- random_state=42 ensures that the splits are reproducible; using the same random state will produce the same split each time.
+
+### - Implement LinearRegression 
+
+```python
+# Create linear regression object
+from sklearn.linear_model import LinearRegression
+regr = LinearRegression()
+
+# Train the model using the training sets
+regr.fit(X_train, y_train)
+
+# Make predictions using the testing set
+y_pred = regr.predict(X_test)
+``` 
+- Imports the **LinearRegression class**.
+- Creates an instance of LinearRegression, named **regr**.
+- Fits the model to the training data (X_train, y_train) to learn the coefficients.
+- Predicts the target (y) for the testing set (X_test) using the learned model, storing the predictions in y_pred.
+
+### - Evaluation 
+
+```python
+# print coeff and intercept
+print(regr.coef_)
+print(regr.intercept_)
+```
+
+```python
+BMI = 25
+print(f"Your predicted sugar level is {regr.predict([[BMI]])}")
+```
+
+```python
+# The coefficients
+print('Coefficients: \n', regr.coef_)
+# The mean squared error
+print(f"Mean squared error:{mean_squared_error(y_test, y_pred): .2f}")
+print(f"Root Mean squared error: {math.sqrt(mean_squared_error(y_test, y_pred)) :.2f}")
+# Explained variance score: 1 is perfect prediction
+print(f'Variance score: {r2_score(y_test, y_pred):.2f}')
+```
+
+### - Visualization
+
+```python
+# Plot outputs
+plt.scatter(X_test, y_test,  color='black')
+plt.plot(X_test, y_pred, color='blue', linewidth=3)
+
+plt.xticks(ticks=[10, 20, 30,40,50])
+plt.yticks(ticks=[100, 200, 300])
+plt.xlabel("BMI (scaled)")
+plt.ylabel("Diabetes progression")
+plt.show()
+```
+
+<div align="center">
+<img src="Plane fitted.png" alt="Alt text" width="450" height="450">
+</div>
