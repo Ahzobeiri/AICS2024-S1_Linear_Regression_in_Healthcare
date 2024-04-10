@@ -192,5 +192,5 @@ plt.show()
 ```
 
 <div align="center">
-<img src="Plane fitted.png" alt="Alt text" width="450" height="450">
+<img src="Output plot.png" alt="Alt text" width="450" height="450">
 </div>
