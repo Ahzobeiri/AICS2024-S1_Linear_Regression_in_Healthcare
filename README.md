@@ -69,6 +69,14 @@ import math
 import pandas as pd
 ```
 
+- 'matplotlib.pyplot': A plotting library used for creating static, interactive, and animated visualizations in Python.
+%matplotlib inline: This Jupyter notebook magic command ensures that plots are displayed inline within the Jupyter notebook directly below the code cell that produced it.
+sklearn.model_selection.train_test_split: Splits arrays or matrices into random train and test subsets.
+sklearn.linear_model.LinearRegression: Implements linear regression, a method to predict a target variable by fitting the best linear relationship with the predictor variables.
+sklearn.metrics.mean_squared_error: Calculates the mean squared error, a measure of the difference between the predicted and actual values.
+sklearn.metrics.r2_score: Computes the coefficient of determination, indicating the proportion of the variance in the dependent variable predictable from the independent variables.
+math: Provides access to mathematical functions defined by the C standard.
+pandas: A library providing high-performance, easy-to-use data structures, and data analysis tools.
 ### - Load the data
 
 ```python
