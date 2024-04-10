@@ -40,6 +40,7 @@ Imagine you want to predict a patient's blood pressure, which is the dependent v
 </div>
 
 # Python Code
+### Dataset Description
 In this part of the lecture, we want to predict the quantitative measure of diabetes progression one year after the baseline using the linear regression model. The dataset is an open-source diabetes dataset available on the website of [North Carolina State University](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt). 
 
 This dataset consisting of several columns representing different medical measurements:
