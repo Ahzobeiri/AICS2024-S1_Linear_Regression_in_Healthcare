@@ -103,8 +103,20 @@ df.describe()
 - **df.describe()**: Generates descriptive statistics that summarize the central tendency, dispersion, and shape of the dataset's distribution, excluding NaN values.
 - **df.isna().sum()**: Calculates the number of missing (NaN) values in each column of the dataframe, which helps in identifying if any data preprocessing like filling missing values is needed.
 
+### - Correlation
 
+To determine which features are most relevant for linear regression with the target variable, we can perform feature selection or ranking. One common method is to use the **correlation coefficient** to assess the linear relationship between each independent variable and the dependent variable. In Python, you can use the **corr()** method from Pandas to compute correlation coefficients, and then visualize these correlations using **seaborn's heatmap** for a more intuitive understanding. Here's a code snippet to demonstrate this:
 
+```python
+import seaborn as sns
 
+correlation_matrix = df.corr()
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation_matrix, annot=True, fmt=".2f")
+plt.show()
+
+# To specifically look at the correlation with the target variable 'Y'
+print(correlation_matrix['Y'].sort_values(ascending=False))
+```
 
 
