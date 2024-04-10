@@ -52,6 +52,9 @@ This dataset consists of several columns representing different medical measurem
 - S1, S2, S3, S4, S5, S6: Various blood serum measurements
 - Target: Column 11 is a quantitative measure of disease progression one year after baseline
 - Y: Quantitative measure of diabetes progression one year after the baseline
+More details: http://www4.stat.ncsu.edu/~boos/var.select/diabetes.html
+
+### Make Data Ready
 
 ```python
 # This is a sample Python code
