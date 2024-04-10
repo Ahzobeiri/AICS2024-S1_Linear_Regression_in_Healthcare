@@ -1,6 +1,11 @@
 # AIH2024-S1_Linear_Regression_in_Healthcare
 ### AIH2024-S1: Predicting Diabetes Progression through Linear Regression in Python 
 **Offered in the Class of Artificial Intelligence, March 13, 2024 | Faculty of New Sciences and Technologies, University of Tehran**
+
+<div align="center">
+<img src="Python.png" alt="Alt text" width="512" height="512">
+</div>
+
 <div align="center">
 <img src="images/Rabbit.webp" alt="Alt text" width="512" height="512">
 </div>
@@ -21,7 +26,7 @@ $MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$
 The squared term in the MSE makes it differentiable, facilitating mathematical treatment, especially for optimization using gradient descent. To find the values of the coefficients (βs) that minimize the MSE, we typically use optimization techniques such as gradient descent.
 Imagine you want to predict a patient's blood pressure, which is the dependent variable. You might consider age and weight as independent variables because you hypothesize that blood pressure could be influenced by these factors.
 
-![Alt text](Python.png "Optional title")
+
 
 
 ```python
