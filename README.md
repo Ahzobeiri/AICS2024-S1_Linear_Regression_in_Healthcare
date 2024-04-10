@@ -99,6 +99,10 @@ df.describe()
 df.describe()
 ```
 
+- df.info(): Provides a concise summary of the dataframe, including the number of entries, the number of non-null entries per column, and the datatype of each column.
+- df.describe(): Generates descriptive statistics that summarize the central tendency, dispersion, and shape of the dataset's distribution, excluding NaN values.
+- df.isna().sum(): Calculates the number of missing (NaN) values in each column of the dataframe, which helps in identifying if any data preprocessing like filling missing values is needed.
+
 
 
 
