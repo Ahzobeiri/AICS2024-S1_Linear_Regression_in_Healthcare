@@ -19,7 +19,7 @@ Where:
 - ϵ is the error term, representing the difference between the observed and predicted values.
 
 <div align="center">
-<img src="images/Rabbit.webp" alt="Alt text" width="512" height="512">
+<img src="images/Rabbit.webp" alt="Alt text" width="350" height="350">
 </div>
 
 The goal of linear regression is to estimate the coefficients (β) that minimize the sum of squared differences between the observed and predicted values of the dependent variable. This value is a cost function value referred to as Mean Squared Error (MSE):  
