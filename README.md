@@ -119,4 +119,9 @@ plt.show()
 print(correlation_matrix['Y'].sort_values(ascending=False))
 ```
 
+```python
+# Use only The first feature (BMI) as variable for predicting target Y
+diabetes_X = df[["BMI"]]
+diabetes_y = df[["Y"]]
+```
 
