@@ -23,8 +23,9 @@ Where:
 </div>
 
 The goal of linear regression is to estimate the coefficients (β) that minimize the sum of squared differences between the observed and predicted values of the dependent variable. This value is a cost function value referred to as **Mean Squared Error (MSE)**:
-
+<p align="center">
 $MSE = \frac{1}{n} \sum (y_i - \hat{y}_i)^2$  
+</p>
 
 The squared term in the MSE makes it differentiable, facilitating mathematical treatment, especially for optimization using gradient descent. To find the values of the coefficients (βs) that minimize the MSE, we typically use optimization techniques such as gradient descent. Linear regression aims to find the best-fitting line through a set of data points in a way that minimizes the distance between the data points and the line itself. The best-fitting line, also known as the regression line, is the line that minimizes the sum of the squared differences **(residuals)** between the observed values (data points) and the values predicted by the linear model.
 
