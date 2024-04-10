@@ -3,7 +3,7 @@
 **Offered in the Class of Artificial Intelligence, March 13, 2024 | Faculty of New Sciences and Technologies, University of Tehran**
 
 <div align="center">
-<img src="Python.png" alt="Alt text" width="256" height="256">
+<img src="Python.png" alt="Alt text" width="350" height="350">
 </div>
 
 
@@ -26,7 +26,12 @@ The goal of linear regression is to estimate the coefficients (β) that minimize
 
 $MSE = \frac{1}{n} \sum (y_i - \hat{y}_i)^2$  
 
-The squared term in the MSE makes it differentiable, facilitating mathematical treatment, especially for optimization using gradient descent. To find the values of the coefficients (βs) that minimize the MSE, we typically use optimization techniques such as gradient descent.
+The squared term in the MSE makes it differentiable, facilitating mathematical treatment, especially for optimization using gradient descent. To find the values of the coefficients (βs) that minimize the MSE, we typically use optimization techniques such as gradient descent. Linear regression aims to find the best-fitting line through a set of data points in a way that minimizes the distance between the data points and the line itself. The best-fitting line, also known as the regression line, is the line that minimizes the sum of the squared differences **(residuals)** between the observed values (data points) and the values predicted by the linear model.
+
+<div align="center">
+<img src="images/Rabbit.webp" alt="Alt text" width="350" height="350">
+</div>
+
 Imagine you want to predict a patient's blood pressure, which is the dependent variable. You might consider age and weight as independent variables because you hypothesize that blood pressure could be influenced by these factors.
 
 
