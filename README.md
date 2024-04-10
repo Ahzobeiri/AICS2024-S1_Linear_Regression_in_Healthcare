@@ -3,7 +3,7 @@
 **Offered in the Class of Artificial Intelligence, March 13, 2024 | Faculty of New Sciences and Technologies, University of Tehran**
 
 <div align="center">
-<img src="Python.png" alt="Alt text" width="512" height="512">
+<img src="Python.png" alt="Alt text" width="256" height="256">
 </div>
 
 
