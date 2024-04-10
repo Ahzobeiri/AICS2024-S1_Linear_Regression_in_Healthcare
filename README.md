@@ -27,18 +27,21 @@ The goal of linear regression is to estimate the coefficients (β) that minimize
 $MSE = \frac{1}{n} \sum (y_i - \hat{y}_i)^2$  
 </p>
 
-The squared term in the MSE makes it differentiable, facilitating mathematical treatment, especially for optimization using gradient descent. To find the values of the coefficients (βs) that minimize the MSE, we typically use optimization techniques such as gradient descent. Linear regression aims to find the best-fitting line through a set of data points in a way that minimizes the distance between the data points and the line itself. The best-fitting line, also known as the regression line, is the line that minimizes the sum of the squared differences **(residuals)** between the observed values (data points) and the values predicted by the linear model. The algorithm calculates the distance (residuals) between the actual data points and the predicted points on the line. The best-fit line will be the one where the sum of the squared residuals is the minimum (Least Squares Method).
+The squared term in the MSE makes it differentiable, facilitating mathematical treatment, especially for optimization using gradient descent. We typically use optimization techniques such as gradient descent to find the values of the coefficients (βs) that minimize the MSE. Linear regression aims to find the best-fitting line through a set of data points in a way that minimizes the distance between the data points and the line itself. The best-fitting line, also known as the regression line, is the line that minimizes the sum of the squared differences **(residuals)** between the observed values (data points) and the values predicted by the linear model. The algorithm calculates the distance (residuals) between the actual data points and the predicted points on the line. The best-fit line will be the one where the sum of the squared residuals is the minimum (Least Squares Method).
 
 <div align="center">
 <img src="Residuals.png" alt="Alt text" width="450" height="450">
 </div>
 
-Imagine you want to predict a patient's blood pressure, which is the dependent variable. You might consider age and weight as independent variables because you hypothesize that blood pressure could be influenced by these factors. In simple linear regression, you would predict blood pressure from just one of these variables (say, age). The model would help you understand how blood pressure varies with age. If you use both age and weight, you'd move to multiple linear regression, allowing you to predict blood pressure based on a combination of both factors. Linear regression involves finding the "best fit" line through the data points. In simple linear regression, "best fit" means that the sum of the squared differences between the observed values and the values predicted by the model is as small as possible, a method known as least squares.
+Imagine you want to predict a patient's blood pressure, which is the dependent variable. You might consider age and weight as independent variables because you hypothesize that these factors could influence blood pressure. In simple linear regression, you would predict blood pressure from just one of these variables (say, age). The model would help you understand how blood pressure varies with age. If you use both age and weight, you'd move to multiple linear regression, allowing you to predict blood pressure based on a combination of both factors. Linear regression involves finding the "best fit" line through the data points. In simple linear regression, "best fit" means that the sum of the squared differences between the observed values and the values predicted by the model is as small as possible, a method known as least squares.
 
 <div align="center">
 <img src="Plane fitted.png" alt="Alt text" width="450" height="450">
 </div>
 
+# Python Code
+In this part of the lecture, we want to predict the quantitative measure of diabetes progression one year after the baseline using the linear regression model. The dataset is an open-source diabetes dataset available on the website of [North Carolina State University](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt)
+- [Github README PROFILE CATEGORY](#github-readme-profile-category)
 
 ```python
 # This is a sample Python code
