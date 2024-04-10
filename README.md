@@ -84,7 +84,7 @@ import pandas as pd
 df = pd.read_csv("https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt",sep="\t")
 df.head()
 ```
-- df.head(): Displays the first five rows of the dataframe df, giving a preview of the dataset's structure and the initial data points.
+- **df.head()**: Displays the first five rows of the dataframe df, giving a preview of the dataset's structure and the initial data points.
 
 ### - Exploring the dataset
 ```python
@@ -99,9 +99,9 @@ df.describe()
 df.describe()
 ```
 
-- df.info(): Provides a concise summary of the dataframe, including the number of entries, the number of non-null entries per column, and the datatype of each column.
-- df.describe(): Generates descriptive statistics that summarize the central tendency, dispersion, and shape of the dataset's distribution, excluding NaN values.
-- df.isna().sum(): Calculates the number of missing (NaN) values in each column of the dataframe, which helps in identifying if any data preprocessing like filling missing values is needed.
+- **df.info()**: Provides a concise summary of the dataframe, including the number of entries, the number of non-null entries per column, and the datatype of each column.
+- **df.describe()**: Generates descriptive statistics that summarize the central tendency, dispersion, and shape of the dataset's distribution, excluding NaN values.
+- **df.isna().sum()**: Calculates the number of missing (NaN) values in each column of the dataframe, which helps in identifying if any data preprocessing like filling missing values is needed.
 
 
 
