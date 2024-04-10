@@ -69,7 +69,7 @@ import math
 import pandas as pd
 ```
 
-- *matplotlib.pyplot*: A plotting library used for creating static, interactive, and animated visualizations in Python.
+- [matplotlib.pyplot](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html): A plotting library used for creating static, interactive, and animated visualizations in Python.
 %matplotlib inline: This Jupyter notebook magic command ensures that plots are displayed inline within the Jupyter notebook directly below the code cell that produced it.
 sklearn.model_selection.train_test_split: Splits arrays or matrices into random train and test subsets.
 sklearn.linear_model.LinearRegression: Implements linear regression, a method to predict a target variable by fitting the best linear relationship with the predictor variables.
