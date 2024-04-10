@@ -43,14 +43,16 @@ Imagine you want to predict a patient's blood pressure, which is the dependent v
 ### Dataset Description
 In this part of the lecture, we want to predict the quantitative measure of diabetes progression one year after the baseline using the linear regression model. The dataset is an open-source diabetes dataset available on the website of [North Carolina State University](https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt). 
 
-This dataset consisting of several columns representing different medical measurements:
-
+This dataset consists of several columns representing different medical measurements:
+- Number of Instances: 442
+- Number of Attributes: The first 10 columns are numeric predictive values:
 - AGE: Age in years
 - SEX: Biological sex (encoded as 1 for male and 2 for female)
 - BMI: Body mass index
 - BP: Average blood pressure
 - S1, S2, S3, S4, S5, S6: Various blood serum measurements
-- Y: Quantitative measure of disease progression one year after the baseline
+- Target: Column 11 is a quantitative measure of disease progression one year after baseline
+- Y: Quantitative measure of diabetes progression one year after the baseline
 
 ```python
 # This is a sample Python code
