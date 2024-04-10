@@ -56,14 +56,12 @@ This dataset consists of several columns representing different medical measurem
 More details: http://www4.stat.ncsu.edu/~boos/var.select/diabetes.html
 
 ### Make Data Ready
-### - Make Data Ready
+### - Load the data
 
 ```python
-# This is a sample Python code
-def hello_world():
-    print("Hello, world!")
-
-hello_world()
+# Load the diabetes dataset
+df = pd.read_csv("https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt",sep="\t")
+df.head()
 ```
 
 
