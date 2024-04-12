@@ -96,7 +96,7 @@ df.describe()
 ```
 
 ```python
-df.describe()
+df.isna().sum()
 ```
 
 - **df.info()**: Provides a concise summary of the dataframe, including the number of entries, the number of non-null entries per column, and the datatype of each column.
