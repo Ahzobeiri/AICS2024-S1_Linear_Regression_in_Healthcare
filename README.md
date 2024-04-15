@@ -1,5 +1,5 @@
-# AIH2024-S1_Linear_Regression_in_Healthcare
-### AIH2024-S1: Predicting Diabetes Progression through Linear Regression in Python 
+# AICS2024-S1_Linear_Regression_in_Healthcare
+### AICS2024-S1: Predicting Diabetes Progression through Linear Regression in Python 
 **Offered in the Class of Artificial Intelligence, April 3, 2024 | Faculty of New Sciences and Technologies, University of Tehran**
 
 <div align="center">
